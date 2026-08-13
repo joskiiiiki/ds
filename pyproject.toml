@@ -1,0 +1,13 @@
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.marimo.language_servers.ty]
+enabled = true
+path = "/nix/store/cnj0zq643wiyhp12mqj7sy0a3a6ax09r-ty-0.0.65/bin/ty"
+
+[tool.marimo.language_servers.ruff]
+enabled = true
+path = "/nix/store/2xbd415kw9kks6ksjzcjhh1kc50xfq0q-ruff-0.16.1/bin/ruff"
