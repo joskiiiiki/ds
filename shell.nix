@@ -45,6 +45,7 @@ pkgs.mkShell {
     pythonPackages.matplotlib
     pythonPackages.seaborn
     pythonPackages.xgboost
+    pythonPackages.statsmodels
     pythonPackages.kagglehub
     pkgs.ty
     pkgs.pyright
